@@ -56,7 +56,8 @@ table.nsm input[type=text],
 table.nsm textarea{font-size:11px; width:97%;}
 
 /* Data table */
-table.nsm-data tr :first-child{border-left:none;}
+table.nsm-data tr th:first-child,
+table.nsm-data tr td:first-child{border-left:none;}
 table.nsm-data thead th{border-left:1px dotted #5f737f;}
 table.nsm-data tbody td{border-left:1px dotted #B1B6D2;}
 

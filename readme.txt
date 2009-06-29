@@ -1,7 +1,7 @@
 Newism CP Theme
 ===============
 
-Place the newism folder inside /themes/cp_themes/default/
+Place the css & js folder inside /themes/cp_themes/default/newism/
 
 You could always add this folder as a submodule as well
 
