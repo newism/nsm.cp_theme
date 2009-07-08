@@ -1,3 +1,20 @@
+#donate{
+	float:right;
+	height:27px;
+	margin-top:0;
+	position:relative;
+	top:-4px
+}
+#donate .button{
+	background:transparent url(http://leevigraham.com/themes/site_themes/default/img/btn_paypal-donation.png) no-repeat scroll left bottom;
+	display:block;
+	height:0;
+	overflow:hidden;
+	padding-top:27px;
+	text-decoration:none;
+	width:175px
+}
+
 /*  restyle the box class */
 .box{margin-top:0;}
 .box p{margin:9px 0;}
@@ -18,6 +35,7 @@
 
 /* Table stlyles */
 table.nsm {border:none; border-collapse:collapse; font-size:11px; margin-top:18px; width:100%;}
+.box + table.nsm{margin-top:0;}
 table.nsm-data,
 #settings-form table.nsm{border:1px solid #B1B6D2;}
 
@@ -28,6 +46,7 @@ table.nsm tr.tableHeading{background-image:-webkit-gradient(linear, left top, le
 table.nsm tr.tableHeadingAlt{background-image:-webkit-gradient(linear, left top, left bottom, from(#C4D3DB), to(#B8C6CE)); border-top:1px solid #B1B6D2;}
 table.nsm tr.box{border-width:0; border-bottom-style:none; border-bottom-color:transparent;}
 table.nsm tr.alt{background:#f4f6f9;}
+table.nsm tr.highlight{color:#990000; font-weight:bold;}
 
 /* Table cells */
 table.nsm th,
@@ -41,10 +60,13 @@ table.nsm th.delete{width:16px;}
 table.nsm th.note{width:16px;}
 table.nsm th.reload{width:16px;}
 table.nsm th.author{width:150px;}
-table.nsm th span.note{color:#666; display:block; font-size:10px; font-weight:normal; margin-top:5px;}
+table.nsm div.note,
+table.nsm span.note,
+table.nsm p.note{color:#666; display:block; font-size:10px; font-weight:normal; margin-top:5px;}
 
 table.nsm tbody th{color:#666; width:300px;}
-table.nsm td.sub-heading {font-size:10px; width:150px;}
+table.nsm tr.tableHeadingAlt th{color:#0C1216; width:auto;}
+table.nsm td.sub-heading{font-size:10px; width:150px;}
 
 table.nsm label.checkbox{display:block; padding-left:20px; margin:9px 0; position:relative;}
 table.nsm label.checkbox:first-child{margin-top:0;}
